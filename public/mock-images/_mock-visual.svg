@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-label="Fantasy travel placeholder artwork">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2e1c33"/>
+      <stop offset=".48" stop-color="#5b3d72"/>
+      <stop offset="1" stop-color="#161020"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".32" cy=".32" r=".32">
+      <stop offset="0" stop-color="#ffe2ad"/>
+      <stop offset=".38" stop-color="#ffad73" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ffad73" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="900" height="620" fill="url(#sky)"/>
+  <rect width="900" height="620" fill="url(#sun)"/>
+  <circle cx="650" cy="145" r="95" fill="#c6a4ff" opacity=".18" filter="url(#blur)"/>
+  <path d="M0 442c112-70 203-79 318-26 97 45 180 39 282-2 107-43 198-31 300 38v168H0z" fill="#130d19"/>
+  <path d="M64 418c80-127 145-190 220-190s137 70 201 184c-120 28-278 28-421 6z" fill="#241527"/>
+  <path d="M424 430c86-144 158-215 245-215s151 76 222 218c-139 34-303 34-467-3z" fill="#1d1421"/>
+  <path d="M180 395h185M520 378h210" stroke="#ffe2ad" stroke-opacity=".38" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="264" cy="238" r="40" fill="#ffe2ad" opacity=".7"/>
+  <path d="M264 190v96M216 238h96M230 204l68 68M298 204l-68 68" stroke="#5b3d72" stroke-opacity=".48" stroke-width="6"/>
+</svg>

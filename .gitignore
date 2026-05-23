@@ -1,0 +1,25 @@
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.env
+.env.*
+!.env.example
+.env.local
+.DS_Store
+*.zip
+*.log
+coverage/
+.vite/
+.idea/
+.vscode/
+__MACOSX/
+see-the-world-for-me/
+see-the-world-for-meUI优化文件/
+supabase/.temp/
+.supabase/
+
+# Local Netlify folder
+.netlify/
